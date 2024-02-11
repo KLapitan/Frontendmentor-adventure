@@ -1,0 +1,122 @@
+ @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+p{
+    font-size: 16px;
+    font-family: 'Figtree', sans-serif;
+
+   }
+body{
+    background-color:  hsl(47, 88%, 63%);
+    margin-top:100px;
+    
+    
+  
+  }
+.container , .Template , body{
+       display: flex;
+      flex-direction: column;
+       align-content: center;
+      align-items: center;
+     
+  }
+.container{ 
+      background-color: hsl(0, 0%, 100%);
+      border-style: solid;
+      width: 370px;
+      height: 510px;
+      border-radius: 10px;
+      box-shadow: 8px 9px 2px rgb(0 0 7);
+     
+  }       
+.Template{
+    margin-left: -16px;
+    margin-top: 20px;
+    width: 300px;
+    height: 540px;
+    border-radius: 10px;
+  }
+.upper-content ,.lower-content {
+     width: 320px;
+  } 
+.thumbnail-pic{
+    width: 330px;
+    border-radius: 10px;
+  }
+
+  .thumbnail-published p{
+    display:block;
+    width: 330px;
+    font-weight:600;
+    font-size: 14px;
+    
+    
+  }
+.thumbnail-logo{
+    margin-bottom: 10px;
+    
+  }
+button{
+    background-color:  hsl(47, 88%, 63%);
+    padding: 5px   12px;
+    font-weight:600;
+    font-size: 15px;
+    border-radius: 2px;
+    border-style: none; 
+  }
+button:hover{
+  cursor: pointer;
+}
+button:active {
+  background-color:  hsl(47, 63%, 53%);
+}
+
+.thumbnail-title-description p {
+    font-size: 1.5rem;
+    margin-top: 0;
+    font-weight: 800;
+    color:hsl(0, 0%, 7%);
+    
+  }
+.thumbnail-description p {
+    color:hsl(0, 0%, 50%);
+    line-height: 23px;  
+    width: 330px;
+    font-weight:600;
+    
+  }
+a , .thumbnail-title-description p  a:hover,
+  .thumbnail-title-description p  a:link {
+    color:hsl(0, 0%, 7%);
+    text-decoration: none;
+  }
+  
+   
+.thumbnail-title-description p  a:active{
+    color: hsl(47, 88%, 63%);
+  }
+
+
+
+.thumnbnail-author-description{
+  margin-top: 27px;
+  display: flex;
+  gap:7px;
+ 
+
+}
+.author-profile-pic{
+  align-self: center;
+  margin-left: 2px;
+
+  
+}
+.author-profile-pic img{
+  width: 35px; 
+  
+}
+.name{
+    font-weight: 800;
+    line-height: 2px;
+}
+.attribution{
+  margin-top: 30px;
+}
