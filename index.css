@@ -121,7 +121,7 @@ a , .thumbnail-title-description p  a:hover,
 .attribution{
   margin-top: 30px;
 }
-.thumbnail-pic{
-  background-image: url('/images/illustration-article.svg');
-  height:200px;
+.thumbnail-pic svg{  
+  height:10px;
+  border-radius: 50%
 }
