@@ -122,6 +122,5 @@ a , .thumbnail-title-description p  a:hover,
   margin-top: 30px;
 }
 .thumbnail-pic svg{  
-  height:10px;
   border-radius: 50%
 }
